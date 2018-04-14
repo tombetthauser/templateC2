@@ -1,0 +1,266 @@
+* {
+	font-family: sans-serif;
+	font-size: .97em;
+	color: none;
+	text-decoration: none;
+}
+
+img {
+  width: 90%;
+  margin: 5%;
+}
+
+img.t-grid-thumbnail {
+  height: 100px;
+	width: auto;
+  margin-right: 7.5px;
+	margin-left: 7.5px;
+  margin-top: 15px;
+	margin-bottom: 0;
+}
+
+@media (max-width: 500px) {
+    img.t-grid-thumbnail {height: 55px; 
+          width: auto;
+          margin-right: 3.5px;
+          margin-left: 3.5px;
+          margin-top: 15px;
+          margin-bottom: -7px;}
+}
+
+/*img:nth-of-type(1) {
+	margin-top: 15px;
+}*/
+
+/*body p {
+	margin-bottom: 100px;
+}*/
+
+p.t-title-etc {
+	margin-bottom: 12.5%;
+}
+
+#t-temporary-text {
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  font-family: serif;
+  opacity: .1;
+  position: absolute;
+}
+
+#t-temporary-text:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition-duration: .3s;
+}
+
+@media (max-width: 500px) {
+    p.t-title-etc {font-size: 2.5vw;}
+}
+
+/* ---------- Resume / CV all headings & paragraphs ---------- */
+
+div.t-cv-text {
+	margin-top: 0em;
+}
+
+div.t-cv-text p {
+	margin: 0 0 2.5em 1%;
+	letter-spacing: 1px;
+	white-space: nowrap;
+}
+
+div.t-cv-text h5 {
+	letter-spacing: 2px;
+}
+
+h5:nth-of-type(1) {
+  margin-top: 56px;
+}
+
+@media (max-width: 768px) {
+  h5:nth-of-type(1) {margin-top: 0px;}
+}
+
+div.t-cv-text a:hover {
+	opacity: .75;
+}
+
+@media (max-width: 500px) {
+    div.t-cv-text p {font-size: 2.5vw;}
+    div.t-cv-text h4 {font-size: 1em;}
+}
+
+@media (max-width: 500px) {
+    #t-links-section-text p {font-size: 3vw;}
+}
+
+@media (max-width: 768px) {
+	div.t-cv-text p {white-space: normal;}
+	div.t-cv-text {margin-top: 2em;
+}
+}
+
+
+/* ----------------------------------- START IMPORTED CSS FROM ARTPAGES for TITLE / LINKS HEADER ----------------------------------- */
+
+
+/* ---------- Drop Shadow for Header Box (Title, Links etc.) ---------- */
+
+.t-center {
+  font-size: 2.25em;
+  text-align: left;
+  margin-left: none;
+}
+
+/* ---------- Drop Shadow for Header Box (Title, Links etc.) ---------- */
+
+/*.t-nav1-container {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.05);
+}*/
+
+
+/* ---------- Title Color, Letter Spacing, Size, Font etc. ---------- */
+
+#t-title-1 {
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: none;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+
+#t-title-1:hover {
+	opacity: .75;
+}
+
+#t-nav-links {
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 1em;
+  color: black;
+}
+
+#t-nav-links a:hover {
+  opacity: .75;
+}
+
+.t-slash {
+  margin: 5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: black;
+  text-decoration: none;
+}
+
+
+/* ----------------------------------- START IMPORTED CSS FROM ARTPAGES for MOBILE NAVBAR ----------------------------------- */
+
+
+.navbar {
+  position: relative;
+  min-height: 10px;
+  margin-bottom: 0px; /*CHANGED*/
+  border: none; /*CHANGED*/
+}
+
+.navbar-brand {
+  float: left;
+  height: 35px;
+  padding: 5px 10px; 
+  letter-spacing: 1px; /*CHANGED*/
+  font-size: 1.15em;
+/*  line-height: 20px;*/
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 1px;
+  margin-right: 5px;
+/*  margin-bottom: 8px;*/
+  background-color: transparent;
+  border: none; /*CHANGED*/
+  border-radius: 0px; /*CHANGED*/
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: rgba(0,0,0,0);
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: none; /*CHANGED*/
+}
+
+/* ---------- NAV BURGER COLOR / THICKNESS ---------- */
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: rgba(0,0,0,.75);
+  background-color: transparent;
+}
+
+#t-navbar-hr {
+  padding: 0;
+  margin: 0;
+}
+
+#t-nav-link-mobile {
+  color: black;
+  letter-spacing: 1px;
+}
+
+#t-nav-link-mobile:hover {
+	opacity: .75;
+}
+
+.navbar #t-navbar-white {
+  background-color: white;
+  padding-top: 4px;
+}
+
+.navbar-brand.container {
+  background-color: white;
+  margin-top: 3px;
+}
+
+/* ----- Border or Drop Shadow on Mobile Navbar ----- */
+
+.t-nav2-container {
+	border-bottom: 1px solid rgba(0,0,0,.03);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.05);
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 3em;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 5px;
+    margin-bottom: 7px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tom Chung</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" type="text/css" href="app-imgmodal.css">
+
+	<link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+	<script defer src="https://use.fontawesome.com/releases/thumbv5.0.6/js/all.js"></script>
+
+</head>
+	<body>
+		<div class="all">
+
+			
+		<!-- START BOOTSTRAP NAVBAR -->
+
+
+			<nav class="t-nav2-container navbar navbar-default hidden-lg hidden-md hidden-sm">
+			  <div class="container-fluid" id="t-navbar-white">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand container" href="index.html">Thomas Chung</a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			      	<li><a href="index.html" id="t-nav-link-mobile">&nbsp; Home</a></li>
+			      	<li><a href="images.html" id="t-nav-link-mobile">&nbsp; Images</a></li>
+			        <li><a href="info.html" id="t-nav-link-mobile">&nbsp; Information</a></li>
+			        <li><a href="links.html" id="t-nav-link-mobile">&nbsp; Links</a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+
+
+		<!-- END BOOTSTRAP NAVBAR / START CONTENT -->
+
+<!-- 				<div class="col-xs-0 col-sm-0 col-md-0 col-lg-1"></div>
+ -->
+				<div class="col-xs-0 col-sm-2 col-md-2 col-lg-2">
+						<div class="t-nav1-container hidden-xs">
+							<div class="row">
+								<div class="col-xs-12">
+									<a href="index.html"><h1 class="t-center" id="t-title-1">Thomas Chung</h1></a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="t-center" id="t-nav-links">
+										  <a href="index.html"><span class="t-left-cap">Home</a><br>
+										  <a href="images.html">Images</a><br>
+										  <a href="info.html">Information</a><br>
+										  <a href="links.html">Links</a><br>
+									        <p id="t-temporary-text">Please note that only the first several thumbnail images are clickable in this sample template varsion.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-10 col-md-8 col-lg-8">
+
+
+				<!-- END BOOTSTRAP NAVBAR / START TOM NAVBAR 02 -->
+
+
+				<!-- END TOM NAVBAR / START CONTENT -->
+
+					<img src="thumb01.jpg" class="t-grid-thumbnail" id="image01" alt="Example Title, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal01" class="t-modal">
+				        <img class="modal-content" id="img01">
+				      <div class="caption" id="caption01"></div>
+				    </div>
+
+
+					<img src="thumb02.jpg" class="t-grid-thumbnail" id="image02" alt="Example Title 2, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal02" class="t-modal">
+				        <img class="modal-content" id="img02">
+				      <div class="caption" id="caption02"></div>
+				    </div>
+				    
+					<img src="thumb03.jpg" class="t-grid-thumbnail" id="image03" alt="Example Title 3, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal03" class="t-modal">
+				        <img class="modal-content" id="img03">
+				      <div class="caption" id="caption03"></div>
+				    </div>
+
+					<img src="thumb04.jpg" class="t-grid-thumbnail" id="image04" alt="Example Title 4, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal04" class="t-modal">
+				        <img class="modal-content" id="img04">
+				      <div class="caption" id="caption04"></div>
+				    </div>
+
+					<img src="thumb05.jpg" class="t-grid-thumbnail" id="image05" alt="Example Title 5, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal05" class="t-modal">
+				        <img class="modal-content" id="img05">
+				      <div class="caption" id="caption05"></div>
+				    </div>
+
+					<img src="thumb06.jpg" class="t-grid-thumbnail" id="image06" alt="Example Title 6, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal06" class="t-modal">
+				        <img class="modal-content" id="img06">
+				      <div class="caption" id="caption06"></div>
+				    </div>
+
+					<img src="thumb07.jpg" class="t-grid-thumbnail" id="image07" alt="Example Title 7, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal07" class="t-modal">
+				        <img class="modal-content" id="img07">
+				      <div class="caption" id="caption07"></div>
+				    </div>
+
+					<img src="thumb08.jpg" class="t-grid-thumbnail" id="image08" alt="Example Title 8, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal08" class="t-modal">
+				        <img class="modal-content" id="img08">
+				      <div class="caption" id="caption08"></div>
+				    </div>
+
+					<img src="thumb09.jpg" class="t-grid-thumbnail" id="image09" alt="Example Title 9, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal09" class="t-modal">
+				        <img class="modal-content" id="img09">
+				      <div class="caption" id="caption09"></div>
+				    </div>
+
+					<img src="thumb10.jpg" class="t-grid-thumbnail" id="image10" alt="Example Title 10, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal10" class="t-modal">
+				        <img class="modal-content" id="img10">
+				      <div class="caption" id="caption10"></div>
+				    </div>
+
+					<img src="thumb11.jpg" class="t-grid-thumbnail" id="image11" alt="Example Title,1 Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal11" class="t-modal">
+				        <img class="modal-content" id="img11">
+				      <div class="caption" id="caption11"></div>
+				    </div>
+
+					<img src="thumb12.jpg" class="t-grid-thumbnail" id="image12" alt="Example Title 12, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal12" class="t-modal">
+				        <img class="modal-content" id="img12">
+				      <div class="caption" id="caption12"></div>
+				    </div>
+				    
+					<img src="thumb13.jpg" class="t-grid-thumbnail" id="image13" alt="Example Title 13, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal13" class="t-modal">
+				        <img class="modal-content" id="img13">
+				      <div class="caption" id="caption13"></div>
+				    </div>
+
+					<img src="thumb14.jpg" class="t-grid-thumbnail" id="image14" alt="Example Title 14, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal14" class="t-modal">
+				        <img class="modal-content" id="img14">
+				      <div class="caption" id="caption14"></div>
+				    </div>
+
+					<img src="thumb15.jpg" class="t-grid-thumbnail" id="image15" alt="Example Title 15, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal15" class="t-modal">
+				        <img class="modal-content" id="img15">
+				      <div class="caption" id="caption15"></div>
+				    </div>
+
+					<img src="thumb16.jpg" class="t-grid-thumbnail" id="image16" alt="Example Title 16, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal16" class="t-modal">
+				        <img class="modal-content" id="img16">
+				      <div class="caption" id="caption16"></div>
+				    </div>
+
+					<img src="thumb17.jpg" class="t-grid-thumbnail" id="image17" alt="Example Title 17, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal17" class="t-modal">
+				        <img class="modal-content" id="img17">
+				      <div class="caption" id="caption17"></div>
+				    </div>
+
+					<img src="thumb18.jpg" class="t-grid-thumbnail" id="image18" alt="Example Title 18, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal18" class="t-modal">
+				        <img class="modal-content" id="img18">
+				      <div class="caption" id="caption18"></div>
+				    </div>
+
+					<img src="thumb19.jpg" class="t-grid-thumbnail" id="image19" alt="Example Title 19, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal19" class="t-modal">
+				        <img class="modal-content" id="img19">
+				      <div class="caption" id="caption19"></div>
+				    </div>
+
+				    <div id="modal20" class="t-modal">
+				        <img class="modal-content" id="img20">
+				      <div class="caption" id="caption20"></div>
+				    </div>
+
+					<img src="thumb21.jpg" class="t-grid-thumbnail" id="image21" alt="Example Title,2 Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal21" class="t-modal">
+				        <img class="modal-content" id="img21">
+				      <div class="caption" id="caption21"></div>
+				    </div>
+
+					<img src="thumb22.jpg" class="t-grid-thumbnail" id="image22" alt="Example Title 22, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal22" class="t-modal">
+				        <img class="modal-content" id="img22">
+				      <div class="caption" id="caption22"></div>
+				    </div>
+				    
+					<img src="thumb23.jpg" class="t-grid-thumbnail" id="image23" alt="Example Title 23, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal23" class="t-modal">
+				        <img class="modal-content" id="img23">
+				      <div class="caption" id="caption23"></div>
+				    </div>
+
+					<img src="thumb24.jpg" class="t-grid-thumbnail" id="image24" alt="Example Title 24, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal24" class="t-modal">
+				        <img class="modal-content" id="img24">
+				      <div class="caption" id="caption24"></div>
+				    </div>
+
+					<img src="thumb25.jpg" class="t-grid-thumbnail" id="image25" alt="Example Title 25, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal25" class="t-modal">
+				        <img class="modal-content" id="img25">
+				      <div class="caption" id="caption25"></div>
+				    </div>
+
+					<img src="thumb26.jpg" class="t-grid-thumbnail" id="image26" alt="Example Title 26, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal26" class="t-modal">
+				        <img class="modal-content" id="img26">
+				      <div class="caption" id="caption26"></div>
+				    </div>
+
+					<img src="thumb27.jpg" class="t-grid-thumbnail" id="image27" alt="Example Title 27, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal27" class="t-modal">
+				        <img class="modal-content" id="img27">
+				      <div class="caption" id="caption27"></div>
+				    </div>
+
+					<img src="thumb28.jpg" class="t-grid-thumbnail" id="image28" alt="Example Title 28, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal28" class="t-modal">
+				        <img class="modal-content" id="img28">
+				      <div class="caption" id="caption28"></div>
+				    </div>
+
+					<img src="thumb29.jpg" class="t-grid-thumbnail" id="image29" alt="Example Title 29, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal29" class="t-modal">
+				        <img class="modal-content" id="img29">
+				      <div class="caption" id="caption29"></div>
+				    </div>
+
+					<img src="thumb30.jpg" class="t-grid-thumbnail" id="image30" alt="Example Title 30, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal30" class="t-modal">
+				        <img class="modal-content" id="img30">
+				      <div class="caption" id="caption30"></div>
+				    </div>
+
+					<img src="thumb31.jpg" class="t-grid-thumbnail" id="image31" alt="Example Title 31, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal31" class="t-modal">
+				        <img class="modal-content" id="img31">
+				      <div class="caption" id="caption31"></div>
+				    </div>
+
+					<img src="thumb32.jpg" class="t-grid-thumbnail" id="image32" alt="Example Title 32, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal32" class="t-modal">
+				        <img class="modal-content" id="img32">
+				      <div class="caption" id="caption32"></div>
+				    </div>
+				    
+					<img src="thumb33.jpg" class="t-grid-thumbnail" id="image33" alt="Example Title 33, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal33" class="t-modal">
+				        <img class="modal-content" id="img33">
+				      <div class="caption" id="caption33"></div>
+				    </div>
+
+					<img src="thumb34.jpg" class="t-grid-thumbnail" id="image34" alt="Example Title 34, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal34" class="t-modal">
+				        <img class="modal-content" id="img34">
+				      <div class="caption" id="caption34"></div>
+				    </div>
+
+					<img src="thumb35.jpg" class="t-grid-thumbnail" id="image35" alt="Example Title 35, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal35" class="t-modal">
+				        <img class="modal-content" id="img35">
+				      <div class="caption" id="caption35"></div>
+				    </div>
+
+					<img src="thumb36.jpg" class="t-grid-thumbnail" id="image36" alt="Example Title 36, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal36" class="t-modal">
+				        <img class="modal-content" id="img36">
+				      <div class="caption" id="caption36"></div>
+				    </div>
+
+					<img src="thumb37.jpg" class="t-grid-thumbnail" id="image37" alt="Example Title 37, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal37" class="t-modal">
+				        <img class="modal-content" id="img37">
+				      <div class="caption" id="caption37"></div>
+				    </div>
+
+					<img src="thumb38.jpg" class="t-grid-thumbnail" id="image38" alt="Example Title 38, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal38" class="t-modal">
+				        <img class="modal-content" id="img38">
+				      <div class="caption" id="caption38"></div>
+				    </div>
+
+					<img src="thumb40.jpg" class="t-grid-thumbnail" id="image40" alt="Example Title 40, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal40" class="t-modal">
+				        <img class="modal-content" id="img40">
+				      <div class="caption" id="caption40"></div>
+				    </div>
+
+					<img src="thumb41.jpg" class="t-grid-thumbnail" id="image41" alt="Example Title 41, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal41" class="t-modal">
+				        <img class="modal-content" id="img41">
+				      <div class="caption" id="caption41"></div>
+				    </div>
+
+					<img src="thumb42.jpg" class="t-grid-thumbnail" id="image42" alt="Example Title 42, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal42" class="t-modal">
+				        <img class="modal-content" id="img42">
+				      <div class="caption" id="caption42"></div>
+				    </div>
+				    
+					<img src="thumb43.jpg" class="t-grid-thumbnail" id="image43" alt="Example Title 43, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal43" class="t-modal">
+				        <img class="modal-content" id="img43">
+				      <div class="caption" id="caption43"></div>
+				    </div>
+
+					<img src="thumb44.jpg" class="t-grid-thumbnail" id="image44" alt="Example Title 44, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal44" class="t-modal">
+				        <img class="modal-content" id="img44">
+				      <div class="caption" id="caption44"></div>
+				    </div>
+
+					<img src="thumb45.jpg" class="t-grid-thumbnail" id="image45" alt="Example Title 45, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal45" class="t-modal">
+				        <img class="modal-content" id="img45">
+				      <div class="caption" id="caption45"></div>
+				    </div>
+
+					<img src="thumb46.jpg" class="t-grid-thumbnail" id="image46" alt="Example Title 46, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal46" class="t-modal">
+				        <img class="modal-content" id="img46">
+				      <div class="caption" id="caption46"></div>
+				    </div>
+
+					<img src="thumb47.jpg" class="t-grid-thumbnail" id="image47" alt="Example Title 47, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal47" class="t-modal">
+				        <img class="modal-content" id="img47">
+				      <div class="caption" id="caption47"></div>
+				    </div>
+
+					<img src="thumb48.jpg" class="t-grid-thumbnail" id="image48" alt="Example Title 48, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal48" class="t-modal">
+				        <img class="modal-content" id="img48">
+				      <div class="caption" id="caption48"></div>
+				    </div>
+
+					<img src="thumb49.jpg" class="t-grid-thumbnail" id="image49" alt="Example Title 49, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal49" class="t-modal">
+				        <img class="modal-content" id="img49">
+				      <div class="caption" id="caption49"></div>
+				    </div>
+
+					<img src="thumb50.jpg" class="t-grid-thumbnail" id="image50" alt="Example Title 50, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal50" class="t-modal">
+				        <img class="modal-content" id="img50">
+				      <div class="caption" id="caption50"></div>
+				    </div>
+
+					<img src="thumb51.jpg" class="t-grid-thumbnail" id="image51" alt="Example Title 51, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal51" class="t-modal">
+				        <img class="modal-content" id="img51">
+				      <div class="caption" id="caption51"></div>
+				    </div>
+
+					<img src="thumb52.jpg" class="t-grid-thumbnail" id="image52" alt="Example Title 52, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal52" class="t-modal">
+				        <img class="modal-content" id="img52">
+				      <div class="caption" id="caption52"></div>
+				    </div>
+				    
+					<img src="thumb53.jpg" class="t-grid-thumbnail" id="image53" alt="Example Title 53, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal53" class="t-modal">
+				        <img class="modal-content" id="img53">
+				      <div class="caption" id="caption53"></div>
+				    </div>
+
+					<img src="thumb54.jpg" class="t-grid-thumbnail" id="image54" alt="Example Title 54, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal54" class="t-modal">
+				        <img class="modal-content" id="img54">
+				      <div class="caption" id="caption54"></div>
+				    </div>
+
+					<img src="thumb55.jpg" class="t-grid-thumbnail" id="image55" alt="Example Title 55, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal55" class="t-modal">
+				        <img class="modal-content" id="img55">
+				      <div class="caption" id="caption55"></div>
+				    </div>
+
+					<img src="thumb56.jpg" class="t-grid-thumbnail" id="image56" alt="Example Title 56, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal56" class="t-modal">
+				        <img class="modal-content" id="img56">
+				      <div class="caption" id="caption56"></div>
+				    </div>
+
+					<img src="thumb57.jpg" class="t-grid-thumbnail" id="image57" alt="Example Title 57, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal57" class="t-modal">
+				        <img class="modal-content" id="img57">
+				      <div class="caption" id="caption57"></div>
+				    </div>
+
+					<img src="thumb58.jpg" class="t-grid-thumbnail" id="image58" alt="Example Title 58, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal58" class="t-modal">
+				        <img class="modal-content" id="img58">
+				      <div class="caption" id="caption58"></div>
+				    </div>
+
+					<img src="thumb59.jpg" class="t-grid-thumbnail" id="image59" alt="Example Title 59, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal59" class="t-modal">
+				        <img class="modal-content" id="img59">
+				      <div class="caption" id="caption59"></div>
+				    </div>
+
+					<img src="thumb60.jpg" class="t-grid-thumbnail" id="image60" alt="Example Title 60, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal60" class="t-modal">
+				        <img class="modal-content" id="img60">
+				      <div class="caption" id="caption60"></div>
+				    </div>
+
+					<img src="thumb61.jpg" class="t-grid-thumbnail" id="image61" alt="Example Title 61, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal61" class="t-modal">
+				        <img class="modal-content" id="img61">
+				      <div class="caption" id="caption61"></div>
+				    </div>
+
+					<img src="thumb62.jpg" class="t-grid-thumbnail" id="image62" alt="Example Title 62, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal62" class="t-modal">
+				        <img class="modal-content" id="img62">
+				      <div class="caption" id="caption62"></div>
+				    </div>
+				    
+					<img src="thumb63.jpg" class="t-grid-thumbnail" id="image63" alt="Example Title 63, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal63" class="t-modal">
+				        <img class="modal-content" id="img63">
+				      <div class="caption" id="caption63"></div>
+				    </div>
+
+					<img src="thumb64.jpg" class="t-grid-thumbnail" id="image64" alt="Example Title 64, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal64" class="t-modal">
+				        <img class="modal-content" id="img64">
+				      <div class="caption" id="caption64"></div>
+				    </div>
+
+					<img src="thumb65.jpg" class="t-grid-thumbnail" id="image65" alt="Example Title 65, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal65" class="t-modal">
+				        <img class="modal-content" id="img65">
+				      <div class="caption" id="caption65"></div>
+				    </div>
+
+					<img src="thumb66.jpg" class="t-grid-thumbnail" id="image66" alt="Example Title 66, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal66" class="t-modal">
+				        <img class="modal-content" id="img66">
+				      <div class="caption" id="caption66"></div>
+				    </div>
+
+					<img src="thumb67.jpg" class="t-grid-thumbnail" id="image67" alt="Example Title 67, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal67" class="t-modal">
+				        <img class="modal-content" id="img67">
+				      <div class="caption" id="caption67"></div>
+				    </div>
+
+					<img src="thumb68.jpg" class="t-grid-thumbnail" id="image68" alt="Example Title 68, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal68" class="t-modal">
+				        <img class="modal-content" id="img68">
+				      <div class="caption" id="caption68"></div>
+				    </div>
+
+					<img src="thumb69.jpg" class="t-grid-thumbnail" id="image69" alt="Example Title 69, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal69" class="t-modal">
+				        <img class="modal-content" id="img69">
+				      <div class="caption" id="caption69"></div>
+				    </div>
+
+					<img src="thumb70.jpg" class="t-grid-thumbnail" id="image70" alt="Example Title 70, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal70" class="t-modal">
+				        <img class="modal-content" id="img70">
+				      <div class="caption" id="caption70"></div>
+				    </div>
+
+					<img src="thumb71.jpg" class="t-grid-thumbnail" id="image71" alt="Example Title 71, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal71" class="t-modal">
+				        <img class="modal-content" id="img71">
+				      <div class="caption" id="caption71"></div>
+				    </div>
+
+					<img src="thumb72.jpg" class="t-grid-thumbnail" id="image72" alt="Example Title 72, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal72" class="t-modal">
+				        <img class="modal-content" id="img72">
+				      <div class="caption" id="caption72"></div>
+				    </div>
+				    
+					<img src="thumb73.jpg" class="t-grid-thumbnail" id="image73" alt="Example Title 73, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal73" class="t-modal">
+				        <img class="modal-content" id="img73">
+				      <div class="caption" id="caption73"></div>
+				    </div>
+
+					<img src="thumb74.jpg" class="t-grid-thumbnail" id="image74" alt="Example Title 74, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal74" class="t-modal">
+				        <img class="modal-content" id="img74">
+				      <div class="caption" id="caption74"></div>
+				    </div>
+
+					<img src="thumb75.jpg" class="t-grid-thumbnail" id="image75" alt="Example Title 75, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal75" class="t-modal">
+				        <img class="modal-content" id="img75">
+				      <div class="caption" id="caption75"></div>
+				    </div>
+
+					<img src="thumb76.jpg" class="t-grid-thumbnail" id="image76" alt="Example Title 76, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal76" class="t-modal">
+				        <img class="modal-content" id="img76">
+				      <div class="caption" id="caption76"></div>
+				    </div>
+
+					<img src="thumb77.jpg" class="t-grid-thumbnail" id="image77" alt="Example Title 77, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal77" class="t-modal">
+				        <img class="modal-content" id="img77">
+				      <div class="caption" id="caption77"></div>
+				    </div>
+
+					<img src="thumb78.jpg" class="t-grid-thumbnail" id="image78" alt="Example Title 78, Acrylic on Canvas, 40 x 60 in. 2018.">
+
+				    <div id="modal78" class="t-modal">
+				        <img class="modal-content" id="img78">
+				      <div class="caption" id="caption78"></div>
+				    </div>
+
+		</div>
+
+    <script src="app-imgmodal.js"></script> 
+
+	</body>
+</html>
